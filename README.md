@@ -1,1 +1,1 @@
-TWRP device tree for Xiaomi Redmi Pro (omega). Omni build.
+TWRP device tree for Xiaomi Redmi Note 4 (nikel). Omni build.

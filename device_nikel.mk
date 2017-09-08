@@ -1,9 +1,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 
-DEVICE_PACKAGE_OVERLAYS += device/xiaomi/omega/overlay
+DEVICE_PACKAGE_OVERLAYS += device/xiaomi/nikel/overlay
 
-LOCAL_PATH := device/xiaomi/omega
+LOCAL_PATH := device/xiaomi/nikel
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else
@@ -19,5 +19,5 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_omega
-PRODUCT_DEVICE := omega
+PRODUCT_NAME := full_nikel
+PRODUCT_DEVICE := nikel

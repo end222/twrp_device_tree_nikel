@@ -1,1 +1,1 @@
-add_lunch_combo omni_omega-eng
+add_lunch_combo omni_nikel-eng
